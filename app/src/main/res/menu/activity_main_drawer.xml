@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/nav_home"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_vip"
+            android:icon="@drawable/ic_more_point"
+            android:title="@string/nav_vip" />
+        <item
+            android:id="@+id/nav_vip_point"
+            android:icon="@drawable/ic_find"
+            android:title="@string/nav_vip_point" />
+
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_view_later"
+            android:icon="@drawable/ic_more"
+            android:title="@string/nav_view_later" />
+        <item
+            android:id="@+id/nav_star"
+            android:icon="@drawable/ic_photo"
+            android:title="@string/nav_star" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_find_c"
+            android:title="@string/nav_history" />
+        <item
+            android:id="@+id/nav_people"
+            android:icon="@drawable/ic_daohang"
+            android:title="@string/nav_people" />
+        <item
+            android:id="@+id/nav_account_balance_wallet"
+            android:icon="@drawable/ic_account"
+            android:title="@string/nav_account_balance_wallet" />
+    </group>
+
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_color_lens"
+            android:icon="@drawable/ic_home_c"
+            android:title="@string/nav_color_lens" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_set"
+            android:title="@string/nav_settings" />
+    </group>
+
+</menu>

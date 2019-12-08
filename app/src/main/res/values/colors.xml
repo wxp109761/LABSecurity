@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <color name="white">#ffffff</color><!--白色 -->
+    <color name="ivory">#fffff0</color><!--象牙色 -->
+    <color name="t_color1">#eafaf1</color>
+    <color name="t_color2">#d5f5e3</color>
+    <color name="t_color3">#a3e4d7</color>
+    <color name="t_color4">#76d7c4</color>
+    <color name="t_color5">#48c9b0</color>
+    <color name="t_color6">#17a589</color>
+    <color name="black_51">#515151</color>
+</resources>
